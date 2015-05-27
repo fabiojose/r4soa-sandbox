@@ -16,6 +16,6 @@ Sandbox.define("/hello11/WSDL", "GET", function(req, res){
     
     res.type('xml');
     
-    res.json({status : 'ok'});
+    res.render('hello11_wsdl');
     
 });
