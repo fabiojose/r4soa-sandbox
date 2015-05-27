@@ -15,7 +15,6 @@ Sandbox.soap("/hello11", "https://ready4soa-fabiojose.rhcloud.com/hello11/doGree
 Sandbox.define("/hello11/WSDL", "GET", function(req, res){
     
     res.type('xml');
-    
     res.render('hello11_wsdl');
     
 });
